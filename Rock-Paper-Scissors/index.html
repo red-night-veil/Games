@@ -3,6 +3,7 @@
     <head>
         <meta charset="uft-8">
         <title>Rock Paper Scissors</title>
+        <link rel ="stylesheet" type="text/css" href="app.css">
     </head>
     <body>
 
@@ -10,10 +11,45 @@
         <h2>Your Choice:  <span id="user-choice"></span></h2>
         <h2>Results:  <span id="result"></span></h2>
 
-        <button id="rock">rock</button>
-        <button id="paper">paper</button>
-        <button id="scissors">scissors</button>
+        <div class="your-ops">
+            <div>   
+                <button class="rock-op" id="rock">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    rock
+                </button>
+            </div>
+            <div>
+                <button class="paper-op" id="paper">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    paper
+                </button>
+            </div>
+            <div>
+                <button class="scissors-op" id="scissors">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    scissors
+                </button>
+            </div>
+        </div>
 
+        <div>
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                RESET
+            </a>
+        </div>
         <script src="app.js" charset="utf-8"></script>
     </body>
 </html>
